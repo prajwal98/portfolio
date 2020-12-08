@@ -1,5 +1,5 @@
 /*  import google fonts */
-@import "https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap";
+@import 'https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap';
 /* custom scroll bar */
 /* all similar content styling codes */
 /* navbar styling */
@@ -48,9 +48,9 @@ section {
     font-weight: 500;
     margin-bottom: 60px;
     padding-bottom: 20px;
-    font-family: "Ubuntu", sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     &::before {
-      content: "";
+      content: '';
       position: absolute;
       bottom: 0px;
       left: 50%;
@@ -77,7 +77,7 @@ section {
   margin: auto;
 }
 .about {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   .about-content {
     display: flex;
     flex-wrap: wrap;
@@ -125,12 +125,12 @@ section {
   }
   .title {
     &::after {
-      content: "who i am";
+      content: 'who i am';
     }
   }
 }
 .services {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   color: #fff;
   background: #111;
   .serv-content {
@@ -176,12 +176,12 @@ section {
     }
     &::after {
       background: #111;
-      content: "what i provide";
+      content: 'what i provide';
     }
   }
 }
 .skills {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   .skills-content {
     display: flex;
     flex-wrap: wrap;
@@ -236,7 +236,7 @@ section {
         background: lightgrey;
         position: relative;
         &::before {
-          content: "";
+          content: '';
           position: absolute;
           height: 100%;
           left: 0;
@@ -248,12 +248,12 @@ section {
   }
   .title {
     &::after {
-      content: "what i know";
+      content: 'what i know';
     }
   }
 }
 .teams {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   color: #fff;
   background: #111;
   .title {
@@ -262,8 +262,8 @@ section {
     }
     &::after {
       background: #111;
-      content: "what i provide";
-      content: "Explore";
+      content: 'what i provide';
+      content: 'Explore';
     }
   }
   .carousel {
@@ -312,7 +312,7 @@ section {
   width: 100%;
 }
 .contact {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   .contact-content {
     display: flex;
     flex-wrap: wrap;
@@ -357,7 +357,7 @@ section {
   }
   .title {
     &::after {
-      content: "get in touch";
+      content: 'get in touch';
     }
   }
   .right {
@@ -382,7 +382,7 @@ section {
           outline: none;
           padding: 0 15px;
           font-size: 17px;
-          font-family: "Poppins", sans-serif;
+          font-family: 'Poppins', sans-serif;
           transition: all 0.3s ease;
           &:focus {
             border-color: #b3b3b3;
@@ -400,7 +400,7 @@ section {
           outline: none;
           padding: 0 15px;
           font-size: 17px;
-          font-family: "Poppins", sans-serif;
+          font-family: 'Poppins', sans-serif;
           transition: all 0.3s ease;
           padding-top: 10px;
           resize: none;
@@ -440,7 +440,7 @@ section {
   }
 }
 footer {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   background: #111;
   padding: 15px 23px;
   color: #fff;
@@ -460,7 +460,7 @@ footer {
   width: 100%;
   z-index: 999;
   padding: 30px 0;
-  font-family: "Ubuntu", sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   transition: all 0.3s ease;
   .max-width {
     display: flex;
@@ -556,13 +556,13 @@ footer {
       rgba($black, 0.8),
       rgba($color-primary-light, 0.3)
     ),
-    url("../images/background.jpg");
+    url('../images/background.jpg');
   height: 100vh;
   color: #fff;
   min-height: 500px;
   background-size: cover;
   background-attachment: fixed;
-  font-family: "Ubuntu", sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   .max-width {
     margin: auto 0 auto 30px;
   }
@@ -681,7 +681,7 @@ footer {
     z-index: 999;
     i.active {
       &:before {
-        content: "\f00d";
+        content: '\f00d';
       }
     }
   }
@@ -730,7 +730,7 @@ footer {
     .about-content {
       .column {
         width: 100%;
-      } 
+      }
       .left {
         display: flex;
         justify-content: center;
